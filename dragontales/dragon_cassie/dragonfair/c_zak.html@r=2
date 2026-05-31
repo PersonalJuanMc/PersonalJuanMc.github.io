@@ -1,0 +1,157 @@
+<HTML>
+<head>
+<TITLE>Dragon Tales . Dragon Fair | PBS Kids</title>
+<link rel="stylesheet" href="dt.css" type="text/css">
+<script language="JavaScript">
+<!--
+
+var current = 2;
+var dragon = "zak";
+var nextpage = "c_cassie.html";
+var r = 0;
+
+var numEndImg = 1;
+var endImg1 = "c_zak_03-end.gif";
+
+function preloadImages() {
+	if (document.images) {
+		image1 = newImage("images/c_zak_02-2.gif");
+		image2 = newImage("images/c_zak_02-3.gif");
+		image3 = newImage("images/c_zak_02-4.gif");
+		image4 = newImage("images/c_zak_02-5.gif");
+		image5 = newImage("images/c_zak_02-6.gif");
+		image6 = newImage("images/c_zak_02-7.gif");
+		image7 = newImage("images/c_zak_02-8.gif");
+		image8 = newImage("images/c_zak_02-9.gif");
+		image9 = newImage("images/c_zak_02-10.gif");
+		image10 = newImage("images/c_zak_02-11.gif");
+		image11 = newImage("images/c_zak_03-end.gif");
+	}
+}
+
+//-->
+</script>
+<script language="JavaScript" src="parsequery.js"></script>
+<script language="JavaScript" src="dt.js"></script>
+</head>
+<body ONLOAD="preloadImages();" bgcolor="#000066" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="585" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td>
+      <table width="585" border="0" cellspacing="0" cellpadding="0" bgcolor="#CCFF99">
+        <tr>
+          <td rowspan="3" valign="top" bgcolor="#0C2C84"><img src="images/dragon_edge.gif" width="12" height="346" alt=""></td>
+          <td>
+            <table width=573 border=0 cellpadding=0 cellspacing=0>
+              <tr>
+                <td>
+			<img src="images/head_01.gif" width=72 height=51 usemap="#pbskids" border="0" alt="PBS Kids"></td>
+                <td>
+			<img name="goodjob" src="images/head_title_cdots.gif" width=394 height=51 alt="Connect the dots!"></td>
+                <td>
+			<img src="images/head_03.gif" width=107 height=51 usemap="#dtlogo" border="0" alt=""></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="573" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img src="images/c_zak_01.gif" width="121" height="234" alt=""></td>
+                <td><img name="game" src="images/c_zak_02-1.gif" width="270" height="234" usemap="#Map" border="0" alt=""></td>
+                <td><img name="end1" src="images/c_zak_03.gif" width="182" height="234" alt=""></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width=573 border=0 cellpadding=0 cellspacing=0>
+              <tr>
+
+<script>
+<!--
+
+printAwards();
+
+//-->
+</script>			
+
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	
+<!-- begin bottom nav -->
+	
+      <table width="585" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr valign="top">
+          <td><img src="images/dragonfairlogo.gif" width="294" height="88" alt="Dragon Fair"></td>
+          <td><img src="images/spacer.gif" width="160" height="1" alt=""></td>
+          <td align="center">
+            <p><a href="../fly_clouds/clouds.html"><img src="images/dragon.gif" width="131" height="60" border="0" alt="More Cassie"><br>
+            More Cassie</a></p>
+          </td>
+        </tr>
+      </table>
+      <table width="560" border="0" cellspacing="2" cellpadding="0">
+        <tr> 
+<td width="100%" align="center"> 
+<a href="../../caregivers/about/index.html"><img src="images/caregivers.gif" width="119" height="38" border="0" alt="Caregivers"></a></td>
+        </tr>
+      </table>
+      <table align="center">
+        <tr> 
+          <td colspan="5" align="center"> 
+            <font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-2">&copy; 1999-2002 Sesame Workshop/Columbia TriStar Television Distribution. "Dragon Tales" and its logo are trademarks of Sesame Workshop and Columbia TriStar Television Distribution. All rights reserved.</font></td>
+        </tr>
+      </table>
+
+<!-- end bottom nav -->
+      
+    </td>
+  </tr>
+</table>
+
+
+<!-- begin global imagemaps -->
+<map name="dtlogo">
+  <area shape="rect" coords="3,4,80,43" href="http://pbskids.org/dragontales/" alt="Dragon Tales">
+</map>
+<map name="pbskids">
+  <area shape="rect" coords="31,1,71,51" href="http://pbskids.org/" alt="PBS Kids">
+</map>
+<!-- end global imagemaps -->
+
+
+<map name="Map">
+  <area shape="rect" coords="96,103,118,133" href="#" onclick="return cMapClick(1);">
+  <area shape="rect" coords="39,91,62,119" href="#" onclick="return cMapClick(2);">
+  <area shape="rect" coords="32,127,54,155" href="#" onclick="return cMapClick(3);">
+  <area shape="rect" coords="91,139,117,167" href="#" onclick="return cMapClick(4);">
+  <area shape="rect" coords="96,179,123,205" href="#" onclick="return cMapClick(5);">
+  <area shape="rect" coords="136,200,158,226" href="#" onclick="return cMapClick(6);">
+  <area shape="rect" coords="179,182,205,206" href="#" onclick="return cMapClick(7);">
+  <area shape="rect" coords="245,184,269,209" href="#" onclick="return cMapClick(8);">
+  <area shape="rect" coords="242,115,265,144" href="#" onclick="return cMapClick(9);">
+  <area shape="rect" coords="184,114,210,145" href="#" onclick="return cMapClick(10);">
+</map>
+
+<applet code="TinyAudioPlayer.class" codebase="sounds" name="right" width="1" height="1" MAYSCRIPT>
+  <param name=snd value="sounds/right.au">
+</applet>
+<applet code="TinyAudioPlayer.class" codebase="sounds" name="wrong" width="1" height="1" MAYSCRIPT>
+  <param name=snd value="sounds/wrong.au">
+</applet>
+<applet code="TinyAudioPlayer.class" codebase="sounds" name="payoff" width="1" height="1" MAYSCRIPT>
+  <param name=snd value="sounds/payoff.au">
+</applet>
+
+</HTML>
+

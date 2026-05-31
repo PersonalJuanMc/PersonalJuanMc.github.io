@@ -1,0 +1,6 @@
+a:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; text-decoration: underline}
+a:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #99ccff; font-style: normal; text-decoration: underline}
+a:active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: #ffcc00; text-decoration: underline}
+a:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: ff6633; text-decoration: underline}
+body {  font-family: Verdana, Arial, Helvetica, sans-serif; background-color: 000066; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; color: #1A59A6; font-size: 10pt}
+.text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color: ffcc00; font-style: normal; text-decoration: underline}

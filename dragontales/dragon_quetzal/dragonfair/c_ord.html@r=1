@@ -1,0 +1,159 @@
+<HTML>
+<head>
+<TITLE>Dragon Tales . Dragon Fair | PBS Kids</title>
+<link rel="stylesheet" href="dt.css" type="text/css">
+<script language="JavaScript">
+<!--
+
+var current = 2;
+var dragon = "ord";
+var nextpage = "c_zak.html";
+var r = 0;
+
+var numEndImg = 2;
+var endImg1 = "c_ord_01-end.gif";
+var endImg2 = "c_ord_03-end.gif";
+
+function preloadImages() {
+	if (document.images) {
+		image1 = newImage("images/c_ord_02-2.gif");
+		image2 = newImage("images/c_ord_02-3.gif");
+		image3 = newImage("images/c_ord_02-4.gif");
+		image4 = newImage("images/c_ord_02-5.gif");
+		image5 = newImage("images/c_ord_02-6.gif");
+		image6 = newImage("images/c_ord_02-7.gif");
+		image7 = newImage("images/c_ord_02-8.gif");
+		image8 = newImage("images/c_ord_02-9.gif");
+		image9 = newImage("images/c_ord_02-10.gif");
+		image10 = newImage("images/c_ord_02-11.gif");
+		image11 = newImage("images/c_ord_01-end.gif");
+		image12 = newImage("images/c_ord_03-end.gif");
+	}
+}
+
+//-->
+</script>
+<script language="JavaScript" src="parsequery.js"></script>
+<script language="JavaScript" src="dt.js"></script>
+</head>
+<body ONLOAD="preloadImages();" bgcolor="#000066" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="585" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td>
+      <table width="585" border="0" cellspacing="0" cellpadding="0" bgcolor="#CCFF99">
+        <tr>
+          <td rowspan="3" valign="top" bgcolor="#0C2C84"><img src="images/dragon_edge.gif" width="12" height="346" alt=""></td>
+          <td>
+            <table width=573 border=0 cellpadding=0 cellspacing=0>
+              <tr>
+                <td>
+			<img src="images/head_01.gif" width=72 height=51 usemap="#pbskids" border="0"></td>
+                <td>
+			<img name="goodjob" src="images/head_title_cdots.gif" width=394 height=51 alt="Connect the dots!"></td>
+                <td>
+			<img src="images/head_03.gif" width=107 height=51 usemap="#dtlogo" border="0"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="573" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img name="end1" src="images/c_ord_01.gif" width="192" height="234" alt=""></td>
+                <td><img name="game" src="images/c_ord_02-1.gif" width="189" height="234" usemap="#Map" border="0" alt=""></td>
+                <td><img name="end2" src="images/c_ord_03.gif" width="192" height="234" alt=""></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width=573 border=0 cellpadding=0 cellspacing=0>
+              <tr>
+
+<script>
+<!--
+
+printAwards();
+
+//-->
+</script>			
+
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+	
+<!-- begin bottom nav -->
+	
+      <table width="585" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr valign="top">
+          <td><img src="images/dragonfairlogo.gif" width="294" height="88" alt="Dragon Fair"></td>
+          <td><img src="images/spacer.gif" width="160" height="1" alt=""></td>
+          <td align="center">
+            <p><a href="../fly_clouds/clouds.html"><img src="images/dragon.gif" width="131" height="60" border="0" alt="More Quetzal"><br>
+            More Quetzal</a></p>
+          </td>
+        </tr>
+      </table>
+      <table width="560" border="0" cellspacing="2" cellpadding="0">
+        <tr> 
+<td width="100%" align="center"> 
+<a href="../../caregivers/about/index.html"><img src="images/caregivers.gif" width="119" height="38" border="0" alt="Caregivers"></a></td>
+        </tr>
+      </table>
+      <table align="center">
+        <tr> 
+          <td colspan="5" align="center"> 
+            <font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-2">&copy; 1999-2002 Sesame Workshop/Columbia TriStar Television Distribution. "Dragon Tales" and its logo are trademarks of Sesame Workshop and Columbia TriStar Television Distribution. All rights reserved.</font></td>
+        </tr>
+      </table>
+
+<!-- end bottom nav -->
+      
+    </td>
+  </tr>
+</table>
+
+
+<!-- begin global imagemaps -->
+<map name="dtlogo">
+  <area shape="rect" coords="3,4,80,43" href="http://pbskids.org/dragontales/" alt="Dragon Tales">
+</map>
+<map name="pbskids">
+  <area shape="rect" coords="31,1,71,51" href="http://pbskids.org/" alt="PBS Kids">
+</map>
+<!-- end global imagemaps -->
+
+
+<map name="Map">
+  <area shape="rect" coords="72,172,94,199" href="#" onclick="return cMapClick(1);">
+  <area shape="rect" coords="20,148,46,167" href="#" onclick="return cMapClick(2);">
+  <area shape="rect" coords="23,100,48,121" href="#" onclick="return cMapClick(3);">
+  <area shape="rect" coords="51,59,74,79" href="#" onclick="return cMapClick(4);">
+  <area shape="rect" coords="24,30,46,52" href="#" onclick="return cMapClick(5);">
+  <area shape="rect" coords="50,8,72,30" href="#" onclick="return cMapClick(6);">
+  <area shape="rect" coords="79,9,102,31" href="#" onclick="return cMapClick(7);">
+  <area shape="rect" coords="92,46,116,69" href="#" onclick="return cMapClick(8);">
+  <area shape="rect" coords="130,86,156,106" href="#" onclick="return cMapClick(9);">
+  <area shape="rect" coords="115,116,147,138" href="#" onclick="return cMapClick(10);">
+</map>
+
+<applet code="TinyAudioPlayer.class" codebase="sounds" name="right" width="1" height="1" MAYSCRIPT>
+  <param name=snd value="sounds/right.au">
+</applet>
+<applet code="TinyAudioPlayer.class" codebase="sounds" name="wrong" width="1" height="1" MAYSCRIPT>
+  <param name=snd value="sounds/wrong.au">
+</applet>
+<applet code="TinyAudioPlayer.class" codebase="sounds" name="payoff" width="1" height="1" MAYSCRIPT>
+  <param name=snd value="sounds/payoff.au">
+</applet>
+
+</HTML>
+

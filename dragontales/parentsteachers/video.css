@@ -1,0 +1,190 @@
+/* PBS Media Player (SSI) CSS */
+
+.pbskidsbuttonbig
+{
+	padding: 2px;
+	font-size: 12px;
+	vertical-align: middle;
+	text-align: center;
+	height: 16;
+	width: 50;
+	border: medium solid #375CA1;
+	background-color: #426FC4;
+	color: #FFFF33;
+}
+
+.pbskidsbuttonbig a:link
+{
+	padding: 2px;
+	font-size: 12px;
+	vertical-align: middle;
+	text-align: center;
+	height: 16;
+	width: 50;
+	background-color: #426FC4;
+	color: #FFFF33;
+}
+
+
+.pbskidsbuttonbig a:active
+{
+	padding: 2px;
+	font-size: 12px;
+	vertical-align: middle;
+	text-align: center;
+	height: 16;
+	width: 50;
+	background-color: #426FC4;
+	color: #FFFF33;
+}
+
+.pbskidsbuttonbig a:visited
+{
+	padding: 3px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: 16;
+	width: 50;
+	background-color: #426FC4;
+	color: #FFFF33;
+}
+
+.pbskidsbuttonbig a:hover
+{
+	padding: 3px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: 16;
+	width: 50;
+	background-color: #426FC4;
+	color: #FFFFFF;
+}
+
+
+.pbskidsbuttonsml
+{
+	padding: 2px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: 16;
+	width: 50;
+	border: medium solid #375CA1;
+	background-color: #426FC4;
+	color: #FFFF33;
+}
+
+.pbskidsbuttonsml a:link
+{
+	padding: 2px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: 16;
+	width: 50;
+	background-color: #426FC4;
+	color: #FFFF33;
+}
+
+
+.pbskidsbuttonsml a:active
+{
+	padding: 2px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: 16;
+	width: 50;
+	background-color: #426FC4;
+	color: #FFFF33;
+}
+
+.pbskidsbuttonsml a:visited
+{
+	padding: 2px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: 16;
+	width: 50;
+	background-color: #426FC4;
+	color: #FFFF33;
+}
+
+.pbskidsbuttonsml a:hover
+{
+	padding: 2px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: 16;
+	width: 50;
+	background-color: #426FC4;
+	color: #FFFFFF;
+}
+
+
+.pbskidsbuttonsmlactive
+{
+	padding: 2px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: 16;
+	width: 50;
+	border: medium solid #426FC4;
+	background-color: #375CA1;
+	color: #FFFFFF;
+}
+
+
+.pbskidsbuttonbigactive
+{
+	padding: 2px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: auto;
+	width: 50;
+	border: medium solid #426FC4;
+	background-color: #375CA1;
+	color: #FFFFFF;
+}
+
+
+.pbskidsvideonav {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+
+
+.pbskidsvideonav a:link {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+
+.pbskidsvideonav a:active {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+
+.pbskidsvideonav a:visited {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+
+.pbskidsvideonav a:hover {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+}

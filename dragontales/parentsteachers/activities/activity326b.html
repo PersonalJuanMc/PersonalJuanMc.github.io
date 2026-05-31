@@ -1,0 +1,43 @@
+<html>
+<head>
+<script type="text/javascript">
+    // Set document title to value stored in cookie.
+    function setTitle() {
+        var domainCookies = document.cookie.split(";");
+        var cookieIndex = 0;
+        var outterBounds = domainCookies.length;
+        var pageTitle = domainCookies[cookieIndex].split("title=")[1];
+
+        while (!pageTitle && cookieIndex < outterBounds) {
+            cookieIndex = cookieIndex + 1;
+            pageTitle = domainCookies[cookieIndex].split("title=")[1];
+        }
+
+        pageTitle = pageTitle.split("%20").join(" ");
+        pageTitle = pageTitle.split("%21").join("!");
+        pageTitle = pageTitle.split("%26").join("&");
+        pageTitle = pageTitle.split("%27").join("'");
+        pageTitle = pageTitle.split("%28").join("(");
+        pageTitle = pageTitle.split("%29").join(")");
+        pageTitle = pageTitle.split("%2F").join("/");
+        pageTitle = pageTitle.split("%3A").join(":");
+        pageTitle = pageTitle.split("%3B").join(";");
+        pageTitle = pageTitle.split("%3D").join("=");
+        pageTitle = pageTitle.split("%3F").join("?");
+        pageTitle = pageTitle.split("%40").join("@");
+        pageTitle = pageTitle.split("%5C").join("\\");
+        pageTitle = pageTitle.split("%7C").join("|");
+        document.title = pageTitle;
+    }
+
+
+    function ptScripts() {
+        setTimeout("setTitle()", 200);
+    }
+</script>
+</head>
+
+<body topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" scroll="no" onload="ptScripts()">
+    <iframe id="pt_shell" name="iframe1" src="http://pbskids.org/ptframe/pt_content_shell.html?/dragontales/parentsteachers/activities/activity326b.html" width="100%" height="100%" frameBorder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+</body>
+</html>

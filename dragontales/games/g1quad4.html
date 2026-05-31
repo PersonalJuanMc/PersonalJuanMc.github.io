@@ -1,0 +1,47 @@
+<!-- Vignette StoryServer 4 Wed Mar 22 17:04:04 2000 -->
+<html>
+<head>
+<title>Dragon Tales</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+
+if (document.images) {
+  iknowbtnoff = new Image();
+  iknowbtnoff.src = "/dragontales/games/guess_btn_off.gif";
+
+  iknowbtnon = new Image();
+  iknowbtnon.src = "/dragontales/games/guess_btn_on.gif";
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+// -->
+</script>
+</head>
+
+<body bgcolor="#003300" text="#FFFF33" link="#FFCC33">
+<table width="600" border="0" cellspacing="0" cellpadding="0" height="300">
+  <tr> 
+    <td rowspan="2" width="418"><img src="/dragontales/games/g1q4.gif" width="418" height="300" border="0" usemap="#mapg1q4"></td>
+    <td height="221"><img src="/dragontales/games/host_1q4.gif" width="182" height="221"></td>
+  </tr>
+  <tr>
+    <td><a href="g1guess.html" onMouseOver="changeImages('btn', 'iknowbtnon')" onMouseOut="changeImages('btn', 'iknowbtnoff')"><img name= "btn" src="/dragontales/games/guess_btn_off.gif" width="182" height="79" alt="Click here to guess!" border=0></a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+
+<map name="mapg1q4">
+  <area shape="poly" coords="7,167,4,255,64,289,180,290,209,276,210,258,203,223,210,197,205,164,192,150,180,146,120,160,59,161,24,162,4,167" href="g1quad3.html" alt="Click here!">
+  <area shape="poly" coords="209,17,210,17,202,37,210,57,209,80,203,99,200,119,207,141,210,154,237,157,268,148,335,148,391,151,408,144,414,65,400,8,231,4,215,20" href="g1quad2.html" alt="Click here!">
+  <area shape="poly" coords="10,16,10,17,5,155,60,150,117,155,151,148,175,138,197,142,197,131,190,118,194,100,203,79,201,62,194,36,200,14,157,5,44,6,10,15" href="g1quad1.html" alt="Click here!">
+</map>
+</body>
+</html>
