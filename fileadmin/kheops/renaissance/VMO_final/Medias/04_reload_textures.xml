@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<combined>
+	<reload tex="splatting anytime_plateau_focus" diff="splatting_anytime_plateau_focus_DIFF" alpha="splatting_anytime_plateau_focus_ALPHA"/>
+	<reload tex="lm_anytime_plateau_focus" diff="lm_43_plateau_focus_DIFF" alpha="lm_43_plateau_focus_ALPHA"/>
+	<reload tex="splatting anytime_plateau_intermediaire" diff="splatting_anytime_plateau_intermediaire_DIFF" alpha="splatting_anytime_plateau_intermediaire_ALPHA"/>
+	<reload tex="lm_anytime_plateau_intermediaire" diff="lm_anytime_plateau_intermediaire_DIFF" alpha="lm_anytime_plateau_intermediaire_ALPHA"/>
+	<reload tex="splatting_anytime_plateau_roches" diff="splatting_anytime_plateau_roches_DIFF" alpha="splatting_anytime_plateau_roches_ALPHA"/>
+	<reload tex="lm_anytime_plateau_roches" diff="lm_anytime_plateau_roches_DIFF" alpha="lm_anytime_plateau_roches_ALPHA"/>
+	<reload tex="lm_anytime_plateau_ports" diff="lm_anytime_plateau_ports_DIFF" alpha="lm_anytime_plateau_ports_ALPHA"/>
+	<reload tex="splatting anytime_plateau_lointain" diff="splatting_anytime_plateau_lointain_DIFF" alpha="splatting_anytime_plateau_lointain_ALPHA"/>
+	<reload tex="lm_anytime_plateau_lointain" diff="lm_anytime_plateau_lointain_DIFF" alpha="lm_anytime_plateau_lointain_ALPHA"/>
+	<reload tex="water_flowmap" diff="water_flowmap_DIFF" alpha="water_flowmap_ALPHA"/>
+	<reload tex="splatting_43_carrieres" diff="splatting_43_carrieres_DIFF" alpha="splatting_43_carrieres_ALPHA"/>
+	<reload tex="lm_43_carrieres" diff="lm_43_carrieres_DIFF" alpha="lm_43_carrieres_ALPHA"/>
+</combined>

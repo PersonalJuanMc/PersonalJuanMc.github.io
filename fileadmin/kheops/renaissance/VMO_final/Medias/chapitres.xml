@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<parties>
+
+	<partie id="1" numero="01" nom="intro">
+		<chapitre id="intro musique" img="1.1" son="1.1"/>
+		<chapitre id="intro speech" img="1.2" son="1.2"/>
+	</partie>
+	
+	<partie id="2.1" numero="02" nom="5e annee">
+		<chapitre id="le chantier de la pyramide" img="2.1.1" son="2.1.1"/>
+		<chapitre id="le village et les hommes" img="2.1.2" son="2.1.2"/>
+		<chapitre id="le port du commerce" img="2.1.3" son="2.1.3"/>
+		<chapitre id="le quai des poutres" img="2.1.4" son="2.1.4"/>
+		<chapitre id="le quai des blocs de Tourah" img="2.1.5" son="2.1.5"/>
+		<chapitre id="la chaussee du port" img="2.1.6" son="2.1.6"/>
+		<chapitre id="les carrieres" img="2.1.7" son="2.1.7"/>
+		<chapitre id="la rampe exterieure" img="2.1.8" son="2.1.8"/>
+		<chapitre id="la rampe interieure" img="2.1.9" son="2.1.9"/>
+		<chapitre id="la presqu'ile" img="2.1.10" son="2.1.10"/>
+		<chapitre id="le chantier de la pyramide" img="2.1.11" son="2.1.11"/>
+	</partie>
+	
+	<partie id="2.2" numero="04" nom="14e annee">
+		<chapitre id="la quatorzième année du chantier" img="2.2.1" son="2.2.1"/>
+		<chapitre id="le defi de la chambre du roi" img="2.2.2" son="2.2.2"/>
+		<chapitre id="le sol de la chambre du roi" img="2.2.3" son="2.2.3"/>
+		<chapitre id="la montee des poutres" img="2.2.4" son="2.2.4"/>
+		<chapitre id="la poutre sur la rampe du port" img="2.2.5" son="2.2.5"/>
+		<chapitre id="le contrepoids de la rampe du port" img="2.2.6" son="2.2.6"/>
+		<chapitre id="le contrepoids de la grande galerie" img="2.2.7" son="2.2.7"/>
+		<chapitre id="le rôle de la grande galerie" img="2.2.8" son="2.2.8"/>
+	</partie>
+	
+	<partie id="2.3" numero="06" nom="construction de la chambre du roi">
+		<chapitre id="construire la chambre du roi" img="2.3.1" son="2.3.1"/>
+		<chapitre id="le contrepoids en action" img="2.3.2" son="2.3.2"/>
+		<chapitre id="la remontee du contrepoids" img="2.3.3" son="2.3.3"/>
+		<chapitre id="construire un plafond" img="2.3.4" son="2.3.4"/>
+		<chapitre id="le chantier continue" img="2.3.5" son="2.3.5"/>
+		<chapitre id="la tranchee" img="2.3.6" son="2.3.6"/>
+		<chapitre id="le seuil des 70m" img="2.3.7" son="2.3.7"/>
+		<chapitre id="le défi de la hauteur" img="2.3.8" son="2.3.8"/>
+		<chapitre id="dans la rampe intérieure" img="2.3.9" son="2.3.9"/>
+		<chapitre id="la Bob's Room" img="2.3.10" son="2.3.10"/>
+		<chapitre id="la rampe à deux niveaux" img="2.3.11" son="2.3.11"/>
+		<chapitre id="a la recherche de la rampe interieure" img="2.3.12" son="2.3.12"/>
+	</partie>
+	
+	<partie id="3" numero="07" nom="soixante-dix jours pour renaitre">
+		<chapitre id="le parcours officiel" img="3.1" son="3.1"/>
+		<chapitre id="l'enigme des funerailles" img="3.2" son="3.2"/>
+		<chapitre id="l'origine de la momification" img="3.3" son="3.3"/>
+		<chapitre id="le natron" img="3.4" son="3.4"/>
+		<chapitre id="le bandelettage" img="3.5" son="3.5"/>
+		<chapitre id="l'allee monumentale" img="3.6" son="3.6"/>
+		<chapitre id="l'ouverture de la bouche" img="3.7" son="3.7"/>
+		<chapitre id="le mobilier funeraire" img="3.8" son="3.8"/>
+		<chapitre id="le legs de Snefrou" img="3.9" son="3.9"/>
+		<chapitre id="l'heritage de Kheops" img="3.10" son="3.10"/>
+	</partie>
+	
+	<partie id="4" numero="08" nom="les chemins de l'eternite">
+		<chapitre id="l'entree derobee" img="4.1" son="4.1"/>
+		<chapitre id="les antichambres" img="4.2" son="4.2"/>
+		<chapitre id="un nouveau plan pour Kheops" img="4.3" son="4.3"/>
+		<chapitre id="les conduits des chambres funeraires" img="4.4" son="4.4"/>
+		<chapitre id="les chambres de decharge" img="4.5" son="4.5"/>
+		<chapitre id="l'entree de la pyramide" img="4.6" son="4.6"/>
+		<chapitre id="la procession funeraire" img="4.7" son="4.7"/>
+		<chapitre id="le scellement de la pyramide" img="4.8" son="4.8"/>
+		<chapitre id="la sortie des ouvriers" img="4.9" son="4.9"/>
+		<chapitre id="Kheops Renaissance" img="4.10" son="4.10"/>
+	</partie>
+	
+	<partie id="5" numero="07" nom="la grande pyramide vue du ciel">
+		<chapitre id="la grande pyramide vue du ciel" img="5" son="5"/>
+	</partie>
+	
+</parties>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<parties_msg>
+
+	<partie id="1" numero="01" nom="intro"/>
+	
+	<partie id="2.1" numero="02" nom="5e annee">
+		<message msg="show_fleches_carrieres" type="trigger" start="0.408"/>
+		<message msg="show_fleches_parement" type="trigger" start="0.408"/>
+		<message msg="show_fleches_poutres" type="trigger" start="0.408"/>
+		<message msg="hide_fleches_carrieres" type="trigger" start="0.504"/>
+		<message msg="hide_fleches_parement" type="trigger" start="0.504"/>
+		<message msg="hide_fleches_poutres" type="trigger" start="0.504"/>
+	</partie>
+	
+	<partie id="2.2" numero="04" nom="14e annee">
+	</partie>
+	
+	<partie id="2.3" numero="06" nom="construction de la chambre du roi">
+		<message msg="show_coupe_est_43-55" type="trigger" start="0.066"/>
+		<message msg="contrepoids_step4" type="continu" start="0.074" end="0.150"/>
+		<message msg="hide_coupe_est_43-55" type="trigger" start="0.151"/>
+		<message msg="contrepoids_step1" type="continu" start="0.168" end="0.193"/>
+		<message msg="contrepoids_step2" type="continu" start="0.200" end="0.218"/>
+		<message msg="contrepoids_step3" type="continu" start="0.221" end="0.237"/>
+		<message msg="contrepoids_step4" type="continu" start="0.240" end="0.256"/>
+		<message msg="contrepoids_step5" type="continu" start="0.259" end="0.265"/>
+		<message msg="show_bobroom" type="trigger" start="0.666"/>
+		<message msg="anim_bobroom" type="continu" start="0.666" end="0.718"/>
+		<message msg="hide_bobroom" type="trigger" start="0.718"/>
+	</partie>
+	
+	<partie id="3" numero="07" nom="soixante-dix jours pour renaitre">
+		<message msg="hide_coupe_est_146" type="trigger" start="0.202"/>
+		<message msg="show_fleches_cortege_ce" type="trigger" start="0.003"/>
+		<message msg="show_bloc_cdr_ce" type="trigger" start="0.093"/>
+		<message msg="hide_bloc_cdr_ce" type="trigger" start="0.172"/>
+		<message msg="hide_fleches_cortege_ce" type="trigger" start="0.196"/>
+		<message msg="ouverture_step2" type="trigger" start="0.585"/>
+		<message msg="ouverture_step3" type="trigger" start="0.635"/>
+	</partie>
+	
+	<partie id="4" numero="08" nom="les chemins de l'eternite">
+		<message msg="show_portique" type="trigger" start="0.025"/>
+		<message msg="hide_portique" type="trigger" start="0.057"/>
+		<message msg="show_conduit_1" type="trigger" start="0.260"/>
+		<message msg="hide_conduit_1" type="trigger" start="0.290"/>
+		<message msg="show_conduit_2" type="trigger" start="0.290"/>
+		<message msg="hide_conduit_2" type="trigger" start="0.333"/>
+		<message msg="show_cortege" type="trigger" start="0.639"/>
+		<message msg="show_fleches_cortege_co" type="trigger" start="0.728"/>
+		<message msg="hide_cortege" type="trigger" start="0.730"/>
+		<message msg="hide_fleches_cortege_co" type="trigger" start="0.735"/>
+		<message msg="scellement_piston" type="continu" start="0.786" end="0.813"/>
+		<message msg="scellement_antichambres" type="continu" start="0.823" end="0.827"/>
+		<message msg="scellement_herse" type="continu" start="0.828" end="0.834"/>
+		<message msg="scellement_couloir" type="continu" start="0.836" end="0.839"/>
+		<message msg="scellement_pierre_finale" type="trigger" start="0.832"/>
+		<message msg="show_fleches_ouvriers" type="trigger" start="0.850"/>
+		<message msg="show_fade_pyramide" type="trigger" start="0.865"/>
+		<message msg="hide_fade_pyramide" type="trigger" start="0.891"/>
+		<message msg="hide_fleches_ouvriers" type="trigger" start="0.891"/>
+	</partie>
+	
+	<partie id="5" numero="07" nom="la grande pyramide vue du ciel">
+		<message msg="hide_coupe_est_146" type="trigger" start="0.0"/>
+	</partie>
+	
+</parties_msg>

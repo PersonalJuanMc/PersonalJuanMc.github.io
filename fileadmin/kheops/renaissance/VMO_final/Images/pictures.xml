@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<parties_msg>
+
+	<partie id="1" numero="01" nom="intro">
+		<image file="Snefrou_Coupe.jpg" start="0.5" end="0.56" video="false"/>
+		<image file="Plafond_Voute_Rouge.jpg" start="0.57" end="0.63" video="false"/>
+		<image file="Kheops_Coupe_Couleurs.jpg" start="0.67" end="0.75" video="false"/>
+		<image file="Plafond_PLat_Kheops.jpg" start="0.76" end="0.82" video="false"/>
+		<image file="Kheops_Coupe_Couleurs.jpg" start="0.83" end="0.95" video="false"/>
+	</partie>
+	
+	<partie id="2.1" numero="02" nom="5e annee">
+		<image file="Kheops_Coupe_Couleurs.jpg" start="0.85" end="0.868" video="false"/>
+		<image file="Tranche_1.jpg" start="0.936" end="0.945" video="false"/>
+		<image file="Tranche_2.jpg" start="0.946" end="0.947" video="false"/>
+		<image file="Tranche_3.jpg" start="0.956" end="0.999" video="false"/>
+	</partie>
+	
+	<partie id="2.2" numero="04" nom="14e annee">
+		<image file="Kheops_Coupe_Couleurs.jpg" start="0.836" end="0.866" video="false"/>
+	</partie>
+	
+	<partie id="2.3" numero="06" nom="construction de la chambre du roi">
+		<image file="Tranche_3.jpg" start="0.020" end="0.027" video="false"/>
+		<image file="Tranche_4.jpg" start="0.028" end="0.035" video="false"/>
+		<image file="Tranche_4.jpg" start="0.438" end="0.452" video="false"/>
+		<image file="Tranche_5.jpg" start="0.453" end="0.470" video="false"/>
+		<image file="Tranche_6.jpg" start="0.471" end="0.510" video="false"/>
+		<image file="Tranche_7.jpg" start="0.569" end="0.584" video="false"/>
+		<image file="Tranche_8.jpg" start="0.585" end="0.592" video="false"/>
+		<image file="Tranche_9.jpg" start="0.593" end="0.611" video="false"/>
+		<image file="entree_rampe_int.jpg" start="0.797" end="0.810" video="false"/>
+		<image file="Vieille_Photo_FIN.jpg" start="0.811" end="0.827" video="false"/>
+		<image file="MicroG_2D_2.jpg" start="0.863" end="0.911" video="false"/>
+		<image file="MicroG_3D.jpg" start="0.912" end="0.924" video="false"/>
+		<image file="Infrarouge_2.jpg" start="0.956" end="0.988" video="false"/>
+		<image file="pyramide_finie.jpg" start="0.990" end="1.1" video="false"/>
+	</partie>
+	
+	<partie id="3" numero="07" nom="soixante-dix jours pour renaitre">
+		<image file="ChRoi_Bloc.jpg" start="0.065" end="0.092" video="false"/>
+		<image file="2-pyramides.jpg" start="0.756" end="0.816" video="false"/>
+		<image file="Kheops_AC_1.jpg" start="0.896" end="0.922" video="false"/>
+		<image file="Kheops_AC_2.jpg" start="0.924" end="0.985" video="false"/>
+	</partie>
+	
+	<partie id="4" numero="08" nom="les chemins de l'eternite">
+		<image file="NewCouloirs_1.jpg" start="0.151" end="0.168" video="false"/>
+		<image file="NewCouloirs_2.jpg" start="0.169" end="0.196" video="false"/>
+		<image file="NewCouloirs_3.jpg" start="0.197" end="0.205" video="false"/>
+		<image file="NewCouloirs_4.jpg" start="0.206" end="0.215" video="false"/>
+		<image file="NewCouloirs_5.jpg" start="0.216" end="0.224" video="false"/>
+		<image file="NewCouloirs_6.jpg" start="0.225" end="0.231" video="false"/>
+		<image file="NewCouloirs_7.jpg" start="0.232" end="0.232" video="false"/>
+		<image file="Radar_Japonais.jpg" start="0.246" end="0.257" video="false"/>
+		<image file="charge_oblique_1.jpg" start="0.394" end="0.426" video="false"/>
+		<image file="charge_oblique_2.jpg" start="0.427" end="0.467" video="false"/>
+		<image file="Entree-Chevrons-1.jpg" start="0.512" end="0.529" video="false"/>
+		<image file="Photo_Entree_Loin.jpg" start="0.539" end="0.557" video="false"/>
+		<image file="Photo_Entree_NB.jpg" start="0.568" end="0.591" video="false"/>
+		<image file="Entree_grosplan.jpg" start="0.592" end="0.608" video="false"/>
+		<image file="Entree_grosplan2.jpg" start="0.609" end="0.619" video="false"/>
+		<image file="Puits_Maquette.jpg" start="0.892" end="0.916" video="false"/>
+		<image file="Vieille_Photo_FIN.jpg" start="0.926" end="0.950" video="false"/>
+	</partie>
+	
+	<partie id="5" numero="07" nom="la grande pyramide vue du ciel">
+	</partie>
+	
+</parties_msg>
