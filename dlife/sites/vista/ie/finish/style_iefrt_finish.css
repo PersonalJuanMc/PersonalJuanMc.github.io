@@ -1,0 +1,26 @@
+body { background: #00386f url("bg_finish.jpg"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/finish/bg_finish.jpg*/) no-repeat left top; margin: 0; padding: 25px 0 0 25px; }
+
+/* common styles  ---- */
+
+img 		{ border: 0; margin: 0; padding: 0; }
+b,strong 	{ font-weight: bold; }
+i,em 		{ font-style: italic; }
+
+.ie7t2clear, .ie7t2safety 				{ clear: both; height:1px; font: 1px/1px arial;}
+div#ie7t2Content img.middle 	{ vertical-align: middle; }
+
+/* audio styles for screen readers */
+abbr 	{speak: spell-out; text-decoration: none;}
+acronym {speak: normal; text-decoration: none;}
+
+
+#ie7t2Zheadline { position: absolute; top: 93px; }
+
+
+	#ie7t2Zbody { position: absolute; top: 170px;  }
+	#ie7t2Zbutton { position: absolute; top: 305px; width: 389px; }
+
+	#ie7t2Zlogo { position: absolute; top: 243px; left: 420px; width: 274px; }
+
+
+

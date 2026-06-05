@@ -1,0 +1,10 @@
+body {
+	font: normal 12px Verdana, sans-serif;
+}
+ul,
+ol {
+	padding-top: 1em;
+}
+li {
+	padding-bottom: 1em;
+}

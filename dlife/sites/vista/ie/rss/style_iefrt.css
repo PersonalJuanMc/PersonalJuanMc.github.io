@@ -1,0 +1,246 @@
+body {  background: #005eaa url("bg.jpg"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/bg.jpg*/) no-repeat top left; margin: 0; padding: 0; text-align: left; }
+
+
+/* common styles  ---- */
+
+img 		{ border: 0; margin: 0; padding: 0; }
+b,strong 	{ font-weight: bold; }
+i,em 		{ font-style: italic; }
+
+.ie7t2clear, .ie7t2safety 				{ clear: both; height:1px; font: 1px/1px arial;}
+div#ie7t2Content img.middle 	{ vertical-align: middle; }
+
+/* audio styles for screen readers */
+abbr 	{speak: spell-out; text-decoration: none;}
+acronym {speak: normal; text-decoration: none;}
+
+div#ie7t2Body { width: 699px; margin: 0; padding: 0; }
+
+
+div#ie7t2PgHdr	{ width: 699px; height: 85px; vertical-align: top; padding: 0; margin: 0;  }
+	#ie7t2HelpLinks {
+		text-align: right;
+		font: 11px Arial, Helvetica, sans-serif;
+		height: 16px;
+		margin: 8px 10px 0 0;
+	}
+	#ie7t2HelpLinks a 		{ color: #fff; text-decoration: none; }
+	#ie7t2HelpLinks a:hover { color: yellow; text-decoration: none; }
+	#ie7t2HelpLinks ul {
+		list-style: none; display: inline;	
+	}
+	#ie7t2HelpLinks ul li {
+		display: inline; 
+		border-right: 1px solid #fff;
+		padding: 0 3px 0 7px;
+	}
+	#ie7t2HelpLinks ul li.last {
+		border-right: 0;
+		padding: 0 0 0 5px;
+	}
+	#ie7t2PgLogo { display:inline; float: left; width: 306px; padding: 10px 0 0 44px; }
+	#ie7t2QuickTour { display: inline; float: left; width: 276px; text-align: right; padding: 32px 73px 0 0; }
+
+div#ie7t2Content { clear: both; background: #fdfcfc; width: 663px; height: 393px; margin: 0; padding: 23px 13px 19px 23px; font: 70%/150% Verdana, Helvetica, sans-serif;}
+	div#ie7t2Content h1 { font: 22px Verdana, Geneva, "Trebuchet MS", sans-serif !important; color: #020202; text-align: center; margin: 0 0 10px  }	
+	div#ie7t2Content .ie7t2cols { display: inline; }
+
+	
+/* end common styles */
+
+
+/* begin page-specific styles ----- */
+
+/* New Interface */
+	
+  /* -- index.html */
+  
+	#ie7t2Iicons { display: inline; float: left; width: 228px; margin-right: 32px; }
+		#ie7t2Iicons table.icons { border: 0; border-collapse: collapse; margin-top: 5px; }
+		#ie7t2Iicons table.icons td { padding:0; font: 95% Arial, Helvetica, sans-serif; }
+		#ie7t2Iicons table.icons td img { margin-right: 10px; }
+		#ie7t2Iicons table.icons td.spacer { width: 24px; }
+		#ie7t2Iicons table.icons tr.spacer td { height: 14px; }
+	#ie7t2IiconCopy { display: inline; float: left; width: 396px; }
+	
+	/* "see how" link rollover */
+	div#ie7Icta1		{ clear: both; width: 600px; height: 40px; position: absolute; top: 457px; left: 375px;}
+		div#ie7Icta1 b 	{ display: none; }
+		div#ie7Icta1 a 	{ font-size: 1px; display: block; height: 40px; background: transparent url("btn_interface.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/interface/btn_interface.gif*/) no-repeat left top; }
+		div#ie7Icta1 a:hover {  background: transparent url("btn_interface.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/interface/btn_interface.gif*/) no-repeat left bottom; }
+
+	
+  /* -- detail.html */
+  
+	div#ie7t2Idet1 		{ display: inline; float: left; width: 242px; padding: 0; margin: 0; }
+	div#ie7t2Idet2 		{ display: inline; float: left; width: 421px; padding: 0; margin: 0; }	
+	div#ie7t2Idet2 #copy { margin-left: 23px; width: 380px; }
+	
+	/* "next in tour" link rollover */
+	div#ie7Icta2		{ clear: both; width: 600px; height: 40px; position: absolute; top: 457px; left: 345px;}
+		div#ie7Icta2 b 	{ display: none; }
+		div#ie7Icta2 a 	{ font-size: 1px; display: block; height: 40px; background: transparent url("btn_next-tabbed.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/interface/btn_next-tabbed.gif*/) no-repeat left top; }
+		div#ie7Icta2 a:hover { display: block; height: 40px; background: transparent url("btn_next-tabbed.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/interface/btn_next-tabbed.gif*/) no-repeat left bottom; }
+
+
+
+/* Tabbed Browsing */
+
+  /* -- index.html */
+  
+	div#ie7t2Tanim 		{ display: inline; float: left; width: 356px; margin-top: 10px; }
+	div#ie7t2Tintro		{ display: inline; float: left; margin: 30px 0 0 30px; width: 265px; }
+	
+	/* "see how" link rollover */
+	div#ie7Tcta1		{ clear: both; width: 600px; height: 40px; position: absolute; top: 485px; left: 340px;}
+		div#ie7Tcta1 b 	{ display: none; }
+		div#ie7Tcta1 a 	{ font-size: 1px; display: block; height: 40px; background: transparent url("btn_see-how.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/tabs/btn_see-how.gif*/) no-repeat left top; }
+		div#ie7Tcta1 a:hover {  background: transparent url("btn_see-how.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/tabs/btn_see-how.gif*/) no-repeat left bottom; }
+
+  /* -- how.html */
+  
+  	#ie7t2Tquick1 { display: inline; float: left; width: 230px; margin-top: -10px; }
+  	#ie7t2Tquick2 { display: inline; float: left; width: 426px; margin-top: -10px; }
+	#ie7t2Tquick2 #ie7t2Tcopy { position: relative; z-index: 10; margin-left: 33px; margin-top: -8px;}
+	
+	/* "next in tour" link rollover */
+	div#ie7Tcta2		{ clear: both; width: 600px; height: 40px; position: absolute; top: 500px; left: 410px;}
+		div#ie7Tcta2 b 	{ display: none; }
+		div#ie7Tcta2 a 	{ font-size: 1px; display: block; height: 40px; background: transparent url("btn_next-search.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/tabs/btn_next-search.gif*/) no-repeat left top; }
+		div#ie7Tcta2 a:hover {  background: transparent url("btn_next-search.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/tabs/btn_next-search.gif*/) no-repeat left bottom; }
+
+
+
+/* Search */
+
+  /* -- index.html */
+
+	#ie7t2Sintro { display: inline; float: left; width: 253px; margin: 33px 5px 0 0; }
+	#ie7t2Ssearchbox { display: inline; float: left; width: 393px; margin-top: 25px; }
+	
+	/* "see how" link rollover */
+	div#ie7Scta1		{ clear: both; width: 500px; height: 40px; position: absolute; top: 447px; left: 365px; }
+		div#ie7Scta1 b 	{ display: none; }
+		div#ie7Scta1 a 	{ font-size: 1px; display: block; width: 400px; height: 40px; background: transparent url("btn_see-how-1.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/search/btn_see-how.gif*/) no-repeat left top; }
+		div#ie7Scta1 a:hover {  background: transparent url("btn_see-how-1.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/search/btn_see-how.gif*/) no-repeat left bottom; }
+
+
+  /* -- how.html */
+	
+	#ie7t2Smenu  	{ display: inline; float: left; width: 394px; margin: 24px 0 0; }
+	#ie7t2Sdetail	{ display: inline; float: left; width: 250px; margin: 24px 8px 0 0; }
+	
+	/* "next in tour" link rollover */
+	div#ie7Scta2		{ clear: both; width: 600px; height: 40px; position: absolute; top: 447px; left: 350px;}
+		div#ie7Scta2 b 	{ display: none; }
+		div#ie7Scta2 a 	{ font-size: 1px; display: block; height: 40px; background: transparent url("btn_next-rss.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/search/btn_next-rss.gif*/) no-repeat left top; }
+		div#ie7Scta2 a:hover {  background: transparent url("btn_next-rss.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/search/btn_next-rss.gif*/) no-repeat left bottom; }
+
+
+
+/* RSS Feeds */
+
+  /* -- index.html */
+       #ie7t2RmenuRSS1 { display: inline; float: left; width: 307px; }
+       #ie7t2RmenuRSS2 { display: inline; float: left; width: 354px; }
+       #ie7t2Rmenu1 { display: inline; float: left; width: 242px; }
+       #ie7t2Rmenu2 { display: inline; float: left; width: 419px; }
+       #ie7t2Rmenu2 #menu2copy    { width: 375px; margin-left: 18px; }
+
+	/* "see how" link rollover */
+	div#ie7Rcta1		{ clear: both; width: 600px; height: 40px; position: absolute; top: 447px; left: 325px;}
+		div#ie7Rcta1 b 	{ display: none; }
+		div#ie7Rcta1 a 	{ font-size: 1px; display: block; height: 40px; background: transparent url("btn_rss-how.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/rss/btn_rss-how.gif*/) no-repeat left top; }
+		div#ie7Rcta1 a:hover {  background: transparent url("btn_rss-how.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/rss/btn_rss-how.gif*/) no-repeat left bottom; }
+
+
+  /* -- how.html */
+  
+  	#ie7t2Rfeed		{ display: inline; float: left; width: 262px; }
+	#ie7t2Rfeedtxt 	{ display: inline; float: left; width: 380px; margin: 10px 0 0 11px; }
+	
+	/* "next in tour" link rollover */
+	div#ie7Rcta2		{ clear: both; width: 600px; height: 40px; position: absolute; top: 495px; left: 365px;}
+		div#ie7Rcta2 b 	{ display: none; }
+		div#ie7Rcta2 a 	{ font-size: 1px; display: block; height: 40px; background: transparent url("btn_next-security.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/rss/btn_next-security.gif*/) no-repeat left top; }
+		div#ie7Rcta2 a:hover {  background: transparent url("btn_next-security.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/rss/btn_next-security.gif*/) no-repeat left bottom; }
+
+
+
+/* Security */
+
+  /* -- index.html */
+  
+	#ie7t2Xintro				{ display: inline; float: left; width: 347px; margin-top: 14px; }
+	#ie7t2Xintro #ie7t2Xbadges	{ display: inline; float: left; width: 85px; height: 125px; margin: 8px 18px 0 6px;}
+	#ie7t2Xlock 				{ display: inline; float: left; width: 300px; }
+  
+	/* "see how" link rollover */
+	div#ie7Xcta1		{ clear: both; width: 600px; height: 40px; position: absolute; top: 495px; left: 190px;}
+		div#ie7Xcta1 b 	{ display: none; }
+		div#ie7Xcta1 a 	{ font-size: 1px; display: block; height: 40px; background: transparent url("btn_security-how.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/security/btn_security-how.gif*/) no-repeat left top; }
+		div#ie7Xcta1 a:hover {  background: transparent url("btn_security-how.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/security/btn_security-how.gif*/) no-repeat left bottom; }
+
+
+  /* -- how.html */
+ 
+	#ie7t2Xexamples	{ display: inline; float: left; width: 73px; margin: 10px 70px 0 60px; padding-left: 8px; }
+	#ie7t2Xexamples	img { margin-left: -8px; }
+
+	#ie7t2Xdetail	{ display: inline; float: left; width: 440px;  }
+
+	/* "next in tour" link rollover */
+	div#ie7Xcta2		{ clear: both; width: 600px; height: 40px; position: absolute; top: 500px; left: 475px;}
+		div#ie7Xcta2 b 	{ display: none; }
+		div#ie7Xcta2 a 	{ font-size: 1px; display: block; height: 40px; background: transparent url("btn_finish.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/security/btn_finish.gif*/) no-repeat left top; }
+		div#ie7Xcta2 a:hover {  background: transparent url("btn_finish.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/security/btn_finish.gif*/) no-repeat left bottom; }
+
+
+
+
+/* tabbed sub-nav ---- */ 
+
+div#ie7t2SubNav { clear: both; padding: 0; margin: 0; width: 699px;   }
+	#ie7t2SubNavStripe {clear: both; height: 4px; background: #0a4981; font: 1px/1px Arial, serif; border-left: 1px solid #fdfcfc; border-right: 1px solid #fdfcfc;}
+	div#ie7t2SubNav ul { padding: 0; margin: 0; list-style: none; height: 27px; }
+	#ie7t2SubNav ul li { float: left; height: 27px; vertical-align: middle; text-align: center; background: transparent; padding: 0; margin: 0 0 -2px 0; overflow-x: hidden; }
+	#ie7t2SubNav ul li a { display: block; height: 13px; padding: 8px 0 6px; margin: 0; color: #fff; text-decoration: none; font: bold 10px verdana, geneva, sans-serif !important; overflow-x: hidden; }
+
+#ie7t2Nint a	{ width: 139px; background: url("tab2.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2.gif*/) no-repeat 0px 0px; }
+	body > * #ie7t2Nint a { background: url("tab2.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2.png*/) no-repeat 0px 0px; }
+	#ie7t2Nint a:hover	{ width: 139px; background: url("tab2.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2.gif*/) no-repeat 0px -29px; }
+	body > * #ie7t2Nint a:hover	{ background: url("tab2.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2.png*/) no-repeat 0px -29px; }
+	#ie7t2Nint a.here, #ie7t2Nint a.here:hover	{ width: 139px; background: url("tab2_here.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2_here.gif*/) no-repeat 0px 0px; }
+	body > * #ie7t2Nint a.here, body > * #ie7t2Nint a.here:hover { width: 139px; background: url("tab2_here.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2_here.png*/) no-repeat 0px 0px; }
+
+#ie7t2Ntabbed a { width: 140px; background: url("tab.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.gif*/) no-repeat 0px 0px; }
+	body > * #ie7t2Ntabbed a { background: url("tab.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.png*/) no-repeat 0px 0px; }
+	#ie7t2Ntabbed a:hover { width: 140px; background: url("tab.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.gif*/) no-repeat 0px -29px; }
+	body > * #ie7t2Ntabbed a:hover { background: url("tab.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.png*/) no-repeat 0px -29px; }
+	#ie7t2Ntabbed a.here, #ie7t2Ntabbed a.here:hover { width: 140px; background: url("tab_here.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab_here.gif*/) no-repeat 0px 0px; }
+	body > * #ie7t2Ntabbed a.here, body > * #ie7t2Ntabbed a.here:hover { width: 140px; background: url("tab_here.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab_here.png*/) no-repeat 0px 0px; }
+
+#ie7t2Nsearch a { width: 140px; background: url("tab.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.gif*/) no-repeat 0px 0px; }
+	body > * #ie7t2Nsearch a { background: url("tab.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.png*/) no-repeat 0px 0px; }
+	#ie7t2Nsearch a:hover { width: 140px; background: url("tab.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.gif*/) no-repeat 0px -29px; }
+	body > * #ie7t2Nsearch a:hover { background: url("tab.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.png*/) no-repeat 0px -29px; }
+	#ie7t2Nsearch a.here, #ie7t2Nsearch a.here { width: 140px; background: url("tab_here.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab_here.gif*/) no-repeat 0px 0px; }
+	body > * #ie7t2Nsearch a.here, body > * #ie7t2Nsearch a.here { width: 140px; background: url("tab_here.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab_here.png*/) no-repeat 0px 0px; }
+
+#ie7t2Nrss a	{ width: 141px; background: url("tab.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.gif*/) no-repeat 0px 0px;}
+	body > * #ie7t2Nrss a { width: 141px; background: transparent url("tab.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.png*/) no-repeat 0px 0px;  }
+
+	#ie7t2Nrss a:hover	{ width: 141px; background: url("tab.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.gif*/) no-repeat 0px -29px;}
+	body > * #ie7t2Nrss a:hover { background: transparent url("tab.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab.png*/) no-repeat 0px -29px;  }
+	#ie7t2Nrss a.here,	#ie7t2Nrss a.here:hover { background: url("tab_here.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab_here.gif*/) no-repeat 0px 0px;}
+	body > * #ie7t2Nrss a.here, body > * #ie7t2Nrss a.here:hover   { background: transparent url("tab_here.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab_here.png*/) no-repeat 0px 0px;  }
+
+#ie7Nsec a		{ width: 139px; background: url("tab2.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2.gif*/) no-repeat right 0px; }
+	body > * #ie7Nsec a	{ background: url("tab2.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2.png*/) no-repeat right 0px; }
+	#ie7Nsec a:hover	{ width: 139px; background: url("tab2.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2.gif*/) no-repeat right -29px; }
+	body > * #ie7Nsec a:hover	{ background: url("tab2.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2.png*/) no-repeat right -29px; }
+	#ie7Nsec a.here, #ie7Nsec a.here:hover	{ width: 139px; background: url("tab2_here.gif"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2_here.gif*/) no-repeat right 0px; }
+	body > * #ie7Nsec a.here, body > * #ie7Nsec a.here:hover	{ width: 139px; background: url("tab2_here.png"/*tpa=http://www.microsoft.com/library/media/1049/rus/windows/ie/images/ie7/common/tab2_here.png*/) no-repeat right 0px; }
+
+
+/* end tabbed sub-nav */

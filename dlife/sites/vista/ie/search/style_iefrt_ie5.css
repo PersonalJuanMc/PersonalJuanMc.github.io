@@ -1,0 +1,18 @@
+/*
+	Styles for IE: >5  <6
+	Mainly to cope with box math errors
+*/
+
+#ie7t2HmWrap { text-align: left; }
+#ie7t2HmCol1 { width: 346px; }
+
+div#ie7t2PgWrap { text-align: left; width: 763px; }	
+	
+
+#ie7t2QuickTour { display: inline; float: left; width: 320px; text-align: right; padding: 42px 0 0 0; }
+
+#ie7t2SubNavStripe {clear: both; height: 5px; margin-top: -1px; border-top: 1px solid #fdfcfc;}
+
+div#ie7t2Content { width: 699px; }
+
+#ie7t2Iicons table.icons td { font-size: 10px; }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texts>
+	<text id="headerTitle"><![CDATA[Открой Фотоальбом Windows Live]]></text>
+	<text id="headerTxt"><![CDATA[Не дай своим снимкам бесславно сгинуть в недрах жесткого диска.<br>Фотки просто мечтают показаться твоим родным, друзьям или знакомым.<br><br>Попробуй [link=download]Фотоальбом Windows Live.[/link]]]></text>	
+
+	<text id="download"><![CDATA[[link=download]СКАЧАЙ[/link]<br>[link=download]ФОТОАЛЬБОМ WINDOWS LIVE[/link]]]></text>
+		
+	<text id="menu1Title"><![CDATA[Найди]]></text>
+	<text id="menu1Sub"><![CDATA[снимок за пару секунд]]></text>
+	
+	<text id="menu2Title"><![CDATA[Отредактируй]]></text>
+	<text id="menu2Sub"><![CDATA[фото в два счета]]></text>
+	
+	<text id="menu3Title"><![CDATA[Опубликуй]]></text>
+	<text id="menu3Sub"><![CDATA[фото в Интернет]]></text>
+	
+	<text id="sub1-1"><![CDATA[Перебрось снимки с цифрового фотоаппарата.]]></text>
+	<text id="sub1-2"><![CDATA[Они автоматически сортируются по событиям, дате, времени, оценке и типу файла.]]></text>
+	<text id="sub1-3"><![CDATA[Отметь похожие снимки тегами.]]></text>
+	
+	<text id="sub2-1"><![CDATA[Создай эффектную панораму, объединив несколько снимков в один.]]></text>
+	<text id="sub2-2"><![CDATA[Останови мгновение и придумай свою подпись.]]></text>	
+	<text id="sub2-3"><![CDATA[Наконец, просто приведи свои фотки в порядок – можно обрезать снимок, устранить эффект «красных глаз» и даже подправить цвета и выдержку.]]></text>
+		
+	<text id="sub3-1"><![CDATA[Закачай фотографии прямо в сеть и поделись ими с друзьями.]]></text>
+	<text id="sub3-2"><![CDATA[Используй Windows Live Spaces, создавай экранные заставки или слайд-шоу.]]></text>
+	
+</texts>
